@@ -8,3 +8,5 @@ Step 2: Flash tester.bin to your USB/extra bootable device. THIS WILL ERASE ANY 
 Step 3: Once you have secure boot off, find CSM, Legacy boot, etc and turn it ON. Save changes. DO NOT click save and quit, just click save. Once saved, turn off computer.
 
 Step 4: While computer is OFF, plug in your USB, turn computer on, get into firmware, and its usually in the same place where you save, find your USB in boot ovverride, and boot it. If successful, it should print a W. If that doesnt happen, shut down using the power button, and boot back into firmware. If CSM is still on, well idk what to tell you. Maybe it didnt boot right, my code should be correct but its made by a human, we all make mistakes so yeah.
+
+WARNING!!: Some UEFIs REQUIRE an admin password to turn off secure boot so you might be in and out of firmware a lot
